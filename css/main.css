@@ -1,6 +1,7 @@
 .main__columns {
     display: flex;
     flex-direction: row;
+    column-gap: 130px;
 }
 
 .column__left {
@@ -34,9 +35,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -1;
     width: 605px;
     height: 768px;
+    z-index: -1;
 }
 
 .column__left-button {
