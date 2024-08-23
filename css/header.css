@@ -50,6 +50,7 @@
 }
 
 .phone_link {
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 14px;
     text-decoration: none;
@@ -69,7 +70,7 @@
 .header__content_logo {
     height: 38px;
     width: 169px;
-    margin-right: 164px;
+    margin-right: 100px;
 }
 
 .header__content-links {
@@ -79,6 +80,7 @@
 }
 
 .header-link {
+    font-family: 'Montserrat';
     text-decoration: none;
     color: #23283B;
     font-size: 14px;
@@ -105,15 +107,16 @@
 }
 
 .button-pic {
-    padding-right: 10px;
+    margin-right: 10px;
     width: 20px;
     height: 20px;
 }
 
 .button-text {
+    font-family: 'Montserrat';
     color: white;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19.5px;
+    line-height: 19px;
     justify-content: center;
 }

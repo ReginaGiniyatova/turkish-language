@@ -1,0 +1,56 @@
+.license {
+    margin-top: 186px;
+    margin-bottom: 186px;
+    background: #3035C3;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px 0px #495FD338;
+    padding: 100px 70px 100px 0;
+    position: relative;
+}
+
+.license__inner {
+    max-width: 550px;
+    margin-left: auto;
+}
+
+.license__inner-title {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;  
+    color: white;
+    margin-bottom: 25px;
+}
+
+.license__inner-description {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.license__inner-button {
+    background: #E6514A;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    padding: 16px 60px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Montserrat';
+}
+
+.license__inner-button:hover {
+    cursor: pointer;
+    background-color: #BE312B;
+}
+
+.license__pic {
+    position: absolute;
+    left: 70px;
+    top: -50px;
+}

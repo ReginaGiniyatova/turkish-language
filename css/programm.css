@@ -16,69 +16,73 @@
     max-width: 278px;
 }
 
-.programm__list-item_top {
+.item__top {
     border: 1px solid #DEDEFF;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    padding: 28px 20px;
-    justify-content: center;
+    padding: 35px 20px;
     align-items: center;
+    height: 180px;
 }
 
-.programm__list-item_price {
-    line-height: 20px;
-    font-size: 40px;
+.item__price {
     min-height: 71px;
+    font-family: "Montserrat";
+    line-height: 32px;
+    font-size: 40px;
     font-weight: 900;
     text-align: center;
     color: #3035C3;
 }
 
 .item__price-currency {
+    font-family: "Montserrat";
     font-size: 18px;
     font-weight: 900;
     text-align: center;
     color: #3035C3;
 }
 
-.programm__list-item_description {
+.item__price-description {
+    font-family: "Montserrat";
     font-size: 16px;
     font-weight: 700;
     text-align: center;
     color: #23283B;
+    margin-top: auto;
 }
 
-.programm__list-item_benefits {
+.item__list {
+    padding: 32px 0px 32px 32px;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
-    min-height: 177px;
 }
 
-.benefit__item {
+.item__list-benefit {
+    font-family: "Lato";
+    position: relative;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     text-align: left;
     color: #23283B;
+    margin-bottom: 12px;
 }
 
-.benefit__item::before {
+.item__list-benefit::before {
+    position: absolute;
+    left: -32px;
     content: url("../images/mark.png");
-    width: 16px;
-    height: 18px;
-    margin-right: 16px;
 }
 
-.programm__list-button {
+.item__button {
     margin: 0 auto;
     padding: 16px 72px;
     border-radius: 40px;
     border: none;
+    font-family: "Montserrat";
     background-color: #E6514A;
     color: white;
     font-weight: 700;
@@ -86,13 +90,16 @@
     line-height: 19.5px;
 }
 
-.programm__list-button:hover {
+.item__button:hover {
     cursor: pointer;
     background-color: #BE312B;
 }
 
-.programm__list-link {
+.item__link {
+    position: relative;
+    display: inline-block;
     margin-top: 20px;
+    font-family: "Roboto";
     align-self: center;
     font-size: 14px;
     font-weight: 900;
@@ -102,11 +109,15 @@
     text-decoration: none;
 }
 
-.programm__list-link::before {
+.item__link::before {
+    position: absolute;
+    left: -28px;
     content: url("../images/play.png");
-    width: 16px;
-    height: 16px;
-    margin-right: 12px;
+}
+
+.item__bottom {
+  text-align: center;
+  margin-top: auto;
 }
 
 .corporate {
