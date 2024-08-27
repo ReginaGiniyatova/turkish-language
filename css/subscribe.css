@@ -1,0 +1,41 @@
+.subscribe {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.subscribe__content {
+    background-image: url('../images/subscribe.png');
+    background-repeat: no-repeat;
+    padding: 100px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subsribe__label {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 48px;
+    color: white;
+    max-width: 600px;
+}
+
+.subscribe__button {
+    padding: 16px 60px;
+    background: #E6514A;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.subscribe__button:hover {
+    cursor: pointer;
+    background-color: #BE312B;
+}

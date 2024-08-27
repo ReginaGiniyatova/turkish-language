@@ -24,7 +24,7 @@
     row-gap: 16px;
     padding: 35px 20px;
     align-items: center;
-    height: 180px;
+    height: 210px;
 }
 
 .item__price {
@@ -87,7 +87,7 @@
     color: white;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19.5px;
+    line-height: 19px;
 }
 
 .item__button:hover {
@@ -103,7 +103,7 @@
     align-self: center;
     font-size: 14px;
     font-weight: 900;
-    line-height: 16.41px;
+    line-height: 16px;
     text-align: left;
     color: #3035C3;
     text-decoration: none;
